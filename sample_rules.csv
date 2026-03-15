@@ -1,0 +1,16 @@
+rule_name,rule_text
+Rule1,If transaction amount > 5000 and device is new decline transaction
+Rule2,If amount > 4800 and device is new decline transaction
+Rule3,If device_age < 1 day and amount > 3000 decline transaction
+Rule4,If amount > 5000 approve transaction
+Rule5,If velocity > 3 transactions in 10 minutes block user
+Rule6,If transaction amount > 5000 and device is new decline
+Rule7,If country is high risk and amount > 2000 decline transaction
+Rule8,If ip_country != billing_country and amount > 1000 decline transaction
+Rule9,If card_type is prepaid and amount > 500 decline transaction
+Rule10,If user_age < 18 decline transaction
+Rule11,If velocity > 5 transactions in 10 minutes block user
+Rule12,If amount > 10000 decline transaction
+Rule13,If amount > 10000 approve transaction
+Rule14,If device_fingerprint is unknown and amount > 3000 decline
+Rule15,If email_domain is disposable decline transaction
